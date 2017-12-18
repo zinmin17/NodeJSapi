@@ -1,0 +1,6 @@
+{
+  "host": "localhost",
+  "user": "laravel",
+  "password": "laravel123",
+  "database": "NodeAPI"
+}
