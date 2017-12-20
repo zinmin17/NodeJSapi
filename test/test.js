@@ -14,7 +14,7 @@ describe('Test API', function() {
       it("should return home page",function(done){
         server
         .get("/")
-        .expect("Content-type",/json/)
+        .expect("Content-type",/html/)
         .expect(200)
         .end(function(err,res){
               should.exist(res.body);
