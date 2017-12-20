@@ -8,7 +8,7 @@ var apiController = require('./controller/apiController.js');
 
 
 app.get('/',function(req, res){
-    res.send('Please use /api/books1 or /api/generes1');
+    res.json('Please use /api/books1 or /api/generes1');
 });
 
 app.get('/object/:key', apiController.apiValueGET);
